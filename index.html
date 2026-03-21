@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>Code Navigator { } — AI GitHub Repo Explainer</title>
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+    <meta name="description" content="Understand any GitHub repository instantly with AI. Get structured breakdowns of folder structure, key files, and how to run the project." />
+    <meta name="theme-color" content="#0a0a0a" />
+    <meta property="og:title" content="Code Navigator — AI GitHub Repo Explainer" />
+    <meta property="og:description" content="Paste any GitHub URL and get an instant AI-powered breakdown in seconds." />
+    <meta property="og:type" content="website" />
+    <style>
+      * { -webkit-tap-highlight-color: transparent; }
+      html { scroll-behavior: smooth; }
+      body { margin: 0; background: #0a0a0a; }
+      /* Prevent horizontal overflow on mobile */
+      #root { overflow-x: hidden; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
