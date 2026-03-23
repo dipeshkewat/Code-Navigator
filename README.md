@@ -1,4 +1,4 @@
-#Code Navigator
+# Code Navigator
 
 ### AI-powered GitHub Repository Explainer
 
@@ -7,7 +7,7 @@ It analyzes the codebase and generates **simple, human-readable explanations**, 
 
 ---
 
-##Problem
+## Problem
 
 Understanding a new GitHub repository can be difficult because:
 
@@ -18,7 +18,7 @@ Understanding a new GitHub repository can be difficult because:
 
 ---
 
-##Solution
+## Solution
 
 Code Navigator solves this by:
 
@@ -29,7 +29,7 @@ Code Navigator solves this by:
 
 ---
 
-##Features
+## Features
 
 ### 📌 Repository Overview
 
