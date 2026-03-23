@@ -18,12 +18,12 @@ export default function Header() {
             style={{ background: '#0f0f0f', border: '1px solid #222' }}
           >
             {/* Inline { } logo — white left brace, amber right brace */}
-            <svg viewBox="0 0 36 36" width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg viewBox="0 0 36 42" width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
               {/* Left brace */}
               <path
                 d="M15 5 C11 5 9 7 9 11 L9 16 C9 19 7 20.5 5 21.5 C7 22.5 9 24 9 27 L9 32 C9 36 11 38 15 38"
                 stroke="#ffffff"
-                strokeWidth="3"
+                strokeWidth="2.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 fill="none"
@@ -32,7 +32,7 @@ export default function Header() {
               <path
                 d="M21 5 C25 5 27 7 27 11 L27 16 C27 19 29 20.5 31 21.5 C29 22.5 27 24 27 27 L27 32 C27 36 25 38 21 38"
                 stroke="#F5A623"
-                strokeWidth="3"
+                strokeWidth="2.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 fill="none"
@@ -66,7 +66,7 @@ export default function Header() {
 
           {/* GitHub link */}
           <a
-            href="https://github.com"
+            href="https://github.com/dipeshkewat"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200"

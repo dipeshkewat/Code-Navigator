@@ -76,12 +76,12 @@ const steps = [
 // ── Logo SVG component ─────────────────────────────────────────────────────────
 function LogoMark({ size = 48 }: { size?: number }) {
   return (
-    <svg viewBox="0 0 100 100" width={size} height={size} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox="0 0 100 112" width={size} height={size} fill="none" xmlns="http://www.w3.org/2000/svg">
       {/* Left brace — white */}
       <path
         d="M42 8 C30 8 25 14 25 24 L25 42 C25 49 20 53 14 56 C20 59 25 63 25 70 L25 88 C25 98 30 104 42 104"
         stroke="#ffffff"
-        strokeWidth="9"
+        strokeWidth="8"
         strokeLinecap="round"
         strokeLinejoin="round"
         fill="none"
@@ -90,7 +90,7 @@ function LogoMark({ size = 48 }: { size?: number }) {
       <path
         d="M58 8 C70 8 75 14 75 24 L75 42 C75 49 80 53 86 56 C80 59 75 63 75 70 L75 88 C75 98 70 104 58 104"
         stroke="#F5A623"
-        strokeWidth="9"
+        strokeWidth="8"
         strokeLinecap="round"
         strokeLinejoin="round"
         fill="none"
