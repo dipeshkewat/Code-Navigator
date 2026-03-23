@@ -48,7 +48,7 @@ Code Navigator solves this by:
   * `app.js`, `routes.js`, `model.py`
 * Focuses only on important files to avoid confusion
 
-###How to Run Guide
+### How to Run Guide
 
 * Step-by-step instructions:
 
