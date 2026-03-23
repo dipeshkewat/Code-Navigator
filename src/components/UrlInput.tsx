@@ -6,11 +6,6 @@ interface Props {
   loading: boolean;
 }
 
-const examples = [
-  { label: 'facebook/react', url: 'https://github.com/facebook/react' },
-  { label: 'vercel/next.js', url: 'https://github.com/vercel/next.js' },
-  { label: 'tiangolo/fastapi', url: 'https://github.com/tiangolo/fastapi' },
-];
 
 export default function UrlInput({ onAnalyze, loading }: Props) {
   const [url, setUrl] = useState('');
@@ -110,31 +105,7 @@ export default function UrlInput({ onAnalyze, loading }: Props) {
         )}
       </form>
 
-      {/* Examples */}
-      <div className="mt-5 flex flex-col items-center gap-3">
-        <span className="text-xs" style={{ color: '#3f3f46' }}>Try an example:</span>
-        <div className="flex flex-wrap gap-2 justify-center">
-          {examples.map(ex => (
-            <button
-              key={ex.url}
-              onClick={() => { setUrl(ex.url); setError(''); }}
-              disabled={loading}
-              className="px-3 py-1.5 rounded-full text-xs font-mono transition-all duration-200 disabled:opacity-40"
-              style={{ background: '#141414', border: '1px solid #2a2a2a', color: '#71717a' }}
-              onMouseEnter={e => {
-                (e.currentTarget as HTMLButtonElement).style.borderColor = 'rgba(245,166,35,0.3)';
-                (e.currentTarget as HTMLButtonElement).style.color = '#F5A623';
-              }}
-              onMouseLeave={e => {
-                (e.currentTarget as HTMLButtonElement).style.borderColor = '#2a2a2a';
-                (e.currentTarget as HTMLButtonElement).style.color = '#71717a';
-              }}
-            >
-              {ex.label}
-            </button>
-          ))}
-        </div>
-      </div>
+
     </div>
   );
 }
